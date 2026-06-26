@@ -17,8 +17,8 @@ This project was built to demonstrate skills in web automation, web scraping, an
 * **Integrations:** Telegram Bot API
 * **Security:** python-dotenv (for keeping API keys and secrets safe)
 
-## 📸 Demo
-*(Add a screenshot of your Telegram bot sending a notification here later)*
+![img.png](img.png)## 📸 Demo
+
 
 ---
 **Author:** Zakhar Zinchuk

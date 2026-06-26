@@ -33,7 +33,6 @@ class Command(BaseCommand):
         @bot.message_handler(func=lambda message: message.text in ["📋 Мій список", "ℹ️ Довідка"])
         def handle_menu(message):
             if message.text == "📋 Мій список":
-                # Шукаємо товари тільки цього користувача!
                 products = Product.objects.filter(telegram_chat_id=message.chat.id)
 
                 if not products.exists():
